@@ -47,8 +47,8 @@ $ npm run start:dev
 # restart the database 
 $ npm run db:dev:restart
 
-# Launch db Dashboard
-$ npx prisma 
+# launch db dashboard
+$ npx prisma studio
 
 # production mode
 $ npm run start:prod
