@@ -23,9 +23,14 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+Basic implementation of a user authentication api using nestjs. 
+```
+framework: Nestjs
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+db schema: Prisma
 
+db container: Docker
+```
 ## Installation
 
 ```bash
