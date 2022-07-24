@@ -38,8 +38,17 @@ $ npm install
 # development
 $ npm run start
 
+# create a local db 
+$ docker compose up dev-db -d 
+
 # watch mode
 $ npm run start:dev
+
+# restart the database 
+$ npm run db:dev:restart
+
+# Launch db Dashboard
+$ npx prisma 
 
 # production mode
 $ npm run start:prod
