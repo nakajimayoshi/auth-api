@@ -5,10 +5,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { JwtStrategy } from './strategy';
 
 @Module({
-    imports: [JwtModule.register({
-        // for setting refresh token
-    })
-    ],
+    imports: [JwtModule.register({})],
     controllers: [AuthController],
     providers: [AuthService, JwtStrategy],
 })
