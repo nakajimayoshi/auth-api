@@ -7,7 +7,7 @@ import { HttpCode, HttpStatus } from '@nestjs/common';
 export class AuthController {
     constructor(private authService: AuthService) {}
 
-
+    @HttpCode(HttpStatus.CREATED) // 201
     @Post('signup')
     signup(@Body() dto: AuthDto) {
         return this.authService.signup(dto);
