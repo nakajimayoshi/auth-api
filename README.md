@@ -26,6 +26,7 @@
 Basic implementation of a user authentication api using nestjs. 
 
 Functions: 
+
 POST: Signup and signin, create bookmark 
 
 GET: Get users info, get current bookmarks
